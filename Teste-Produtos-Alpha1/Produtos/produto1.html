@@ -4,7 +4,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../style.css">
 		
-		<link rel="stylesheet" type="text/css" href="../styleprods.css">
+		<link rel="stylesheet" type="text/css" href="../styleprods2.css">
 		<script src="../produtos.js"></script>
 		
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -34,6 +34,7 @@
 			function preencher(){
 				document.getElementById("nomeprod") .innerHTML=produto1.nome;
 				document.getElementById("precoprod") .innerHTML=produto1.preco;
+				document.getElementById("descricao") .innerHTML=produto1.desc;
 				
 				document.getElementById("nomeprod1") .innerHTML=produto1.nome;
 				document.getElementById("precoprod1") .innerHTML=produto1.preco;
@@ -64,6 +65,9 @@
 		
 		<main>
 			<section class="prod-main">
+				
+				
+				
 				<div id="div">
 					<table id="tableIMG">
 						<tr>
@@ -91,7 +95,7 @@
 						</tr>
 					</table>	
 				</div>
-				
+						
 				<div>
 					<table style="width:auto; height:500">
 						<tr>
@@ -101,15 +105,14 @@
 										<img src=".././ImagensProdutos/masc1.jpg" width="400dp" onmouseover="masc1()" /> <br/>
 									</p>
 								</fieldset>
-								
-								
 							</td>
 						</tr>
+						
 						
 					</table>
 				</div>
 				
-				<div >
+				<div>
 					<table style="width:400; height:500">
 						<tr>
 							<td><p>  </p>
@@ -132,7 +135,7 @@
 							</td>
 						</tr>
 						
-
+						
 						
 						<tr>
 							<td style="padding-left: 30px;">
@@ -140,7 +143,7 @@
 								<button>Calcular Frete</button>
 							</td>
 						</tr>
-						
+							
 						<tr >
 							<td style="padding-left: 30px;">
 								<a href="#" class="button">Comprar</a></br>
@@ -155,14 +158,12 @@
 								</p>
 							</td>
 						</tr>
-						
-						
-						
 					</table>
 				</div>
 				
+
 				<div>
-				<h2> Veja outros Produtos </h2>
+					<h2> Veja outros Produtos </h2>
 					<div id="div" class="prod-main-item">
 						<a href="produto9.html"target="_self">
 							<table >
@@ -186,11 +187,61 @@
 							</table>
 						</a>
 					</div>
+					
+					<div id="div" class="prod-main-item">
+						<a href="produto9.html"target="_self">
+							<table >
+								<tr>
+									<td>
+										<img src=".././ImagensProdutos/gel.jpg" width=240dp/> <br/>
+									</td>
+								</tr>
+								<tr>
+									<td class="preco"> 
+										<p id="precoprod1">
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="width: 300px;" class="titulo" id="nomeprod1">
+										</p>
+									</td>
+								</tr>
+							</table>
+						</a>
+					</div>
+					
+					
+					<div id="div" class="prod-main-item">
+						<a href="produto9.html"target="_self">
+							<table >
+								<tr>
+									<td>
+										<img src=".././ImagensProdutos/gel.jpg" width=240dp/> <br/>
+									</td>
+								</tr>
+								<tr>
+									<td class="preco"> 
+										<p id="precoprod1">
+										</p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p style="width: 300px;" class="titulo" id="nomeprod1">
+										</p>
+									</td>
+								</tr>
+							</table>
+						</a>
+					</div>
+					
+					
 				</div>
 				
 				<script>preencher()</script>
 			</section>
-			
 			
 		</main>
 
