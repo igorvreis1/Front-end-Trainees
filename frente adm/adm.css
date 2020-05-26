@@ -1,0 +1,66 @@
+.clear{
+    clear: both;
+}
+
+table{
+    font-size: 14px;
+    align-items: center;
+    margin-top: 15px;
+    width: auto;
+    height: auto;
+}
+.tabela{
+    align-items: center;
+}
+.cartao{
+    align-items: center;
+}
+.tabela-link{
+    text-decoration: none;
+    color: black;
+}
+.tabela-link:hover{
+    text-decoration: none;
+    color: rgb(6, 124, 221);
+}
+.bloco{
+    float: left;
+    padding: 5px;
+    align-items: center;
+    width: 55%;
+    height: auto;
+}
+.bloco-b{
+    float: right;
+    width: 80%;
+    height: auto;
+    margin: 25px;
+    padding: 5px;
+}
+.campo{
+    margin: auto;
+    align-items: center;
+    padding: auto;
+}
+.titulo{
+    margin: auto;
+    padding: 3px;
+    text-align: left;
+    font-size: medium;
+}
+.formulario{
+    margin: 35px;
+    padding: 40px;
+}
+.formulario2{
+    margin: 70px;
+    padding: 40px;
+}
+.area{
+    margin: 15px;
+}
+.botao{
+    align-items: left;
+    align-self: left;
+    align-content: left;
+}
