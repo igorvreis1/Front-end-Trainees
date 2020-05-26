@@ -1,0 +1,139 @@
+/*------------------------------*/
+.prod-main {
+    padding: 1.25rem 1.875rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.prod-main-item {
+    padding: 1.25rem;
+    min-width: 12.5rem /*200px gfgfgd */;
+}
+
+.prod-title {
+    color: black;
+    font-size: 1.375rem;
+    padding-bottom: 0.625rem;
+    font-family: var(--Raleway);
+}
+
+.prod-title a{
+    font-family: var(--Raleway);
+}
+
+
+table{
+	background-color: #fff;
+	height: 380;
+	border: 1px solid #e6e6e6;
+	border-radius: 5px;
+}
+
+.tableimg{
+	border-style: none none solid none;
+	border: 1px solid #e6e6e6;
+	text-align: center;
+}
+
+.tabl{
+	background-color: #fff;
+	height:430;
+}
+
+#div{
+	padding:0;
+	margin: 0 0 40px 55px;
+    position: relative;
+	/*box-shadow: 5px 5px 5px gray;*/
+}
+
+#div2{
+	padding:0;
+	margin: 0 0 40px 55px;
+    position: relative;
+	height: 300;
+	width: 230;
+	/*box-shadow: 5px 5px 5px gray;*/
+}
+
+
+
+.preco{
+	font-size: 44px;
+	text-indent: 12;
+	padding-left: 15px;
+}
+
+.preco2{
+	font-size: 24px;
+	text-indent: 12;
+	padding-left: 15px;
+}
+
+.titulo{
+
+	padding-left: 30px;
+	color: black;
+    font-size: 1.475rem;
+    padding-bottom: 0.625rem;
+    font-family: var(--Raleway);
+	align: center;
+}
+
+.titulo2{
+
+	padding-left: 15px;
+	color: black;
+    font-size: 14px;
+    font-family: var(--Raleway);
+	align: center;
+
+}
+main{
+	background-color: #eeeeee;
+}
+
+label{
+	padding-left: 30px;
+}
+
+
+#div a:link,#div a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+#div a:hover, #div a:active {
+  color: black;
+  text-decoration: none;
+}
+
+.button {
+  background-color: #00d188;
+  border-radius: 12px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 250px;
+}
+
+.frete{
+  background-color: #00d188;
+  border-radius: 7px;
+  padding:2px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  margin: 4px 2px;
+}
+
+/*------------------------------*/

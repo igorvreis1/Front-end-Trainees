@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://use.fontawesome.com/342bd9e694.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>           
+    <title>Página Inicial</title>   
+    <title>Document</title>
+    <script>
+      jQuery(document).ready(function($) { 
+          $(".scroll").click(function(event){        
+              event.preventDefault();
+              $('html,body').animate({scrollTop:$(this.hash).offset().top}, 600);
+        });
+      });
+    </script>
+  </head>
+
+  <body>
+    
+    <div class="header">
+      <ul>
+        <li><img href="index.html" src="poo.png" class="logo"/></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="produtos.html">Produtos</a></li>
+        <li><a class="scroll" href="#footer">Contato</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <button class="btn btn-success" data-toggle="modal" data-target="#meuModal2">Cadastro</button>
+        <button class="btn btn-success" data-toggle="modal" data-target="#meuModal">Login</button>
+        <a href="#" class="imagecar"  data-toggle="modal" data-target="#meuModal3"><img src="marketcar.png"></a>
+      </ul>
+    </div>
+
+    <main>
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img src="img1.jpg" class="product-carousel">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img2.jpg" class="product-carousel">
+          </div>
+
+          <div class="carousel-item">
+            <img src="img3.jpg" class="product-carousel">
+          </div>
+
+        </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próximo</span>
+        </a>
+      </div>
+
+      <br>
+      <br>
+        <h2>Máscaras e Luvas:</h2>
+      <br>
+      <br>
+
+      <div class="prod">
+        <div class="masc">
+          <div class="row">
+            <div class="col-sm-5 ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Máscaras</h5>
+                  <br>  
+                  <div class="imag">
+                    <img id="mask" src="mask.jpg">
+                  </div>
+                  <br>        
+                   <a href="mascaras.html" class="btn btn-outline-success btn-lg btn-block">Visitar</a>
+                </div>  
+              </div>
+            </div> 
+          </div>  
+        </div>
+
+        <div class="luv">
+          <div class="row ">
+            <div class="col-sm-5 ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Luvas</h5>
+                  <br>  
+                  <div class="imag">
+                    <img id="mask" src="luva.png">
+                  </div>
+                  <br>
+                  <br>
+                  <a href="luvas.html" class="btn btn-outline-success btn-lg btn-block">Visitar</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div> 
+      </div>
+
+      <br>
+      <br>
+      <br>
+      <br>
+      <h2>Álcoois:</h2>
+      <br>
+      <br>
+
+      <div class="prod">
+
+        <div class="masc">
+          <div class="row">
+            <div class="col-sm-5 ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Álcool em Gel</h5>
+                  <br>  
+                  <div class="imag">
+                    <img id="mask" src="alcool.png">
+                  </div>
+
+                  <br>
+                  <br>
+
+                   <a href="alcoolgel.html" class="btn btn-outline-success btn-lg btn-block">Visitar</a>
+                </div>  
+              </div>
+            </div> 
+          </div>  
+        </div>
+
+        <div class="luv">
+          <div class="row ">
+            <div class="col-sm-5 ">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Álcool 70%</h5>
+                  <br>  
+                  <div class="imag">
+                    <img id="mask" src="te.jpg">
+                  </div>
+
+                  <br>
+                  <br>
+                   <a href="alcool.html" class="btn btn-outline-success btn-lg btn-block">Visitar</a>
+                </div>
+              </div>
+            </div> 
+          </div>
+        </div>
+      </div>
+
+      <br>  
+      <br>  
+      <br>
+      <br>
+      <br>
+
+      <div class="card-group">
+        <div class="card">
+          <img class="feature" src="credit-card.png" height="150px" width="10px">
+          <div class="card-body">
+            <h5 class="card-title">Pague com Cartão de Credito</h5>
+            <p class="card-text">Use seu cartão de credito Visa ou MasterCard para fazer suas compras!</p>
+          </div>
+
+          <div class="card-footer">
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="feature" src="shield.png" alt="Card image cap" height="150px">
+          <div class="card-body">
+            <h5 class="card-title">Segurança do Inicio ao Fim</h5>
+            <p class="card-text">Você não gostou do que comprou? Devolva em até 5 dias úteis e tenha seu dinheiro de volta!</p>
+          </div>
+
+          <div class="card-footer">
+          </div>
+        </div>
+
+        <div class="card">
+          <img class="feature" src="conect.png">
+
+          <div class="card-body">
+            <h5 class="card-title">Frete gratis acima de R$60 Reais em compras! </h5>
+            <p class="card-text">Em compras com valor total cima de R$60 o frete é gratis!</p>
+          </div>
+
+          <div class="card-footer">
+          </div>
+        </div>
+      </div>
+
+      <script>
+
+          $('#form1').on('submit', function(event){
+            event.preventDefault();
+            if($('#exampleInputEmail1').val() == ""){
+              //Alerta de campo nome vazio
+              $("#msg-error").html('<div class="alert alert-danger" role="alert">Necessário prencher o campo Email!</div>');
+            }else if($('#exampleInputPassword1').val() == ""){
+              //Alerta de campo email vazio
+              $("#msg-error").html('<div class="alert alert-danger" role="alert">Necessário prencher o campo Senha!</div>');             
+              }
+            });
+          
+      </script>
+
+    </main>
+
+    <footer id="footer">
+      <div id="footer">
+      <!-- Footer main -->
+      <section class="ft-main">
+        <div class="ft-main-item">
+          <h2 class="ft-title">Sobre</h2>
+          <br>
+          <br>
+          <ul>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Preços</a></li>
+            <li><a href="#">Clientes</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Recursos</h2>
+          <br>
+          <br>
+          <ul>
+            <li><a href="#">Documentos</a></li>
+            <li><a href="https://chc-site.web.app/#topo">Sobre a CHC</a></li>
+            <li><a href="../perfil1.0/perfil.html">Administrador</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Contatos</h2>
+          <br>
+          <br>
+          <ul>
+            <li><a href="#">Ajuda</a></li>
+            <li><a href="#">Vendas</a></li>
+          </ul>
+        </div>
+        <div class="ft-main-item">
+          <h2 class="ft-title">Fique Atualizado</h2>
+          <br>
+          <br>
+          <p>Se inscreva em nossa Newsletter para receber as últimas informações.</p>
+          <form>
+            <input type="email" name="email" placeholder="Digite o endereço de email">
+            <input type="submit" value="Inscrever-se">
+          </form>
+        </div>
+      </section>
+      
+      <!-- Footer social -->
+      <section class="ft-social">
+        <ul class="ft-social-list">
+          <li>
+              <a href="https://facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+          </li>
+
+          <li><a href="https://twitter.com" target="blank"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="https://youtube.com" target="blank"><i class="fa fa-youtube"></i></a></li>
+        </ul>
+      </section>
+      
+      <!-- Footer legal -->
+      <section class="ft-legal">
+        <ul class="ft-legal-list">
+          <li><a href="#">Termos &amp; Condições</a></li>
+          <li><a href="#">Políticas de privacidade</a></li>
+          <li>&copy; 2020 Copyright Computer Science Web Fucking Devs Inc.</li>
+        </ul>
+      </section>
+      </div>
+
+
+      
+
+    </footer>
+
+    <div id="meuModal3" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Conteúdo do modal-->
+        <div class="modal-content">
+
+          <!-- Cabeçalho do modal -->
+          <div class="modal-header">
+            <h4 class="modal-title"> Meu Carrinho:</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Corpo do modal -->
+          <div class="modal-body">
+            <form id="form2" method="post">
+              <div class="form-group">
+               
+
+                
+              </div>
+            </form>
+          </div>
+
+      <!-- Rodapé jovem-->
+      <div class="modal-footer">
+<div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="CEP Aqui" aria-label="Recipient's username" aria-describedby="basic-addon2">
+
+    <button class="btn btn-outline-secondary" type="button">Calcular Frete</button>
+</div>  
+       <br>
+        <button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button>
+      </div>
+
+    </div>
+    </div>
+    </div>
+
+    <div id="meuModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Conteúdo do modal-->
+        <div class="modal-content">
+
+          <!-- Cabeçalho do modal -->
+          <div class="modal-header">
+            <h4 class="modal-title">Login:</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Corpo do modal -->
+          <div class="modal-body">
+            <span id="msg-error"></span>
+            <form id="form1" method="post">
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email:</label>
+                <input type="email" class="form-control"  name="exampleInputEmail1" id="exampleInputEmail1" placeholder="Insira seu email aqui">
+                <div class="form-group">
+                  <label for="exampleInputPassword1">Senha:</label>
+                  <input type="password" name="exampleInputPassword1" class="form-control" id="exampleInputPassword1"  placeholder="Insira sua senha aqui">
+                </div>
+
+                <div class="form-check">
+                  <a href="esqueceuSenha.html">Esqueceu a senha ?</a>          
+                </div>
+              </div>
+              
+              <!-- Rodapé jovem-->
+              <div class="modal-footer">
+                <button type="submit" class="btn btn-primary btn-lg">Logar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="meuModal2" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+      <!-- Conteúdo do modal-->
+        <div class="modal-content">
+          <!-- Cabeçalho do modal -->
+          <div class="modal-header">
+            <h4 class="modal-title">Cadastro:</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+
+          <!-- Corpo do modal -->
+          <div class="modal-body">
+            <form id="form2" method="post">
+              
+              <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="email" class="form-control" id="nome" placeholder="Insira seu nome aqui">
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Senha:</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha Aqui">
+              </div>
+
+              <label for="exampleInputEmail1">Email:</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Insira seu email aqui">
+
+              <div class="form-group">
+                <label for="cpf">CPF:</label>
+                <input type="name" class="form-control" id="cpf" placeholder="Insira seu CPF aqui">
+              </div>
+
+              <div class="form-group">
+                <label for="exampleInputPassword1">Data de Nascimento:</label>
+                <input type="date" class="form-control" id="exampleInputPassword1" placeholder="insira sua data de nascimento aqui">
+              </div>
+
+            </form>
+          </div>
+
+          <!-- Rodapé jovem-->
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary btn-lg">Cadastrar</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="bootstrap.bundle.min.js"></script>
+  </body>
+</html>
