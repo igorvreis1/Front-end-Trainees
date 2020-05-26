@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" type="text/css" href="../style.css">
-		<link rel="stylesheet" type="text/css" href="../styleprods.css">
+		<link rel="stylesheet" type="text/css" href="../styleprods2.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -33,11 +33,15 @@
 			function preencher(){
 				document.getElementById("nomeprod") .innerHTML=produto1.nome;
 				document.getElementById("precoprod") .innerHTML=produto1.preco;
+
+				document.getElementById("nomeprod5") .innerHTML=produto5.nome;
+				document.getElementById("precoprod5") .innerHTML=produto5.preco;
 				
-				document.getElementById("nomeprod1") .innerHTML=produto1.nome;
-				document.getElementById("precoprod1") .innerHTML=produto1.preco;
-				document.getElementById("nomeprod2") .innerHTML=produto12.nome;
-				document.getElementById("precoprod2") .innerHTML=produto12.preco;
+				document.getElementById("nomeprod9") .innerHTML=produto9.nome;
+				document.getElementById("precoprod9") .innerHTML=produto9.preco;
+				
+				document.getElementById("nomeprod13") .innerHTML=produto13.nome;
+				document.getElementById("precoprod13") .innerHTML=produto13.preco;
 			}	
 		</script>
 	</head>
@@ -88,6 +92,7 @@
 					</table>	
 				</div>
 				
+				
 				<div>
 					<table style="width:auto; height:500">
 						<tr>
@@ -107,11 +112,7 @@
 				
 				<div >
 					<table style="width:400; height:500">
-						<tr>
-							<td><p>  </p>
-							</td>
-						</tr>
-
+					
 						<tr>
 							<td >
 								<!-- Nome do produto -->
@@ -128,51 +129,133 @@
 							</td>
 						</tr>
 						
-
-						
-						<tr>
-							<td style="padding-left: 30px;">
-								<input type=text name="cep" size="10" />
-								<button class="frete">Calcular Frete</button>
-							</td>
-						</tr>
 						
 						<tr >
 							<td style="padding-left: 30px;">
+								<p id="select">Quantidade
+									<select name=quantidade size=1>
+										<option>01 </option>
+										<option>02 </option>
+										<option>03 </option>
+										<option>04 </option>
+										<option>05 </option>
+										<option>+5</option>
+									</select>
+								</p>
 								<a href="#" class="button">Comprar</a></br>
 								<a href="#" class="button">Adicionar Ao Carrinho</a>
 							</td>
+							
 						</tr>
+						
+						<tr >
+							<td>
+								<p class="mensage">Compra Garantida, receba o produto que está esperando ou devolvemos o dinheiro</p>
+							</td>
+							
+						</tr>
+
+
 		
 					</table>
 				</div>
 				
 				<div>
-					<h2> Veja outros Produtos </h2>
-					<div id="div" class="prod-main-item">
-						<a href="produto9.html"target="_self">
-							<table >
-								<tr>
-									<td>
-										<img src="../ImagensProdutos/gel1.jpg" width=240dp/>
-									</td>
-								</tr>
-								<tr>
-									<td class="preco"> 
-										<p id="precoprod1">
-										</p>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<p style="width: 300px;" class="titulo" id="nomeprod1">
-										</p>
-									</td>
-								</tr>
-							</table>
-						</a>
-					</div>
-				</div>
+					<table style="margin: 0 0 30px 45px;">
+						<tr>
+							<td >
+								<h2> Veja outros Produtos </h2>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto5.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/luva1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod5">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod5">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto9.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/gel1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod9">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod9">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto13.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/alcool1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod13">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod13">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+					
+					</table>
+					
+					
+					
 				
 				<script>preencher()</script>
 			</section>
