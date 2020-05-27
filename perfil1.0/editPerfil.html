@@ -1,103 +1,287 @@
 <!DOCTYPE html>
-  <head>
-    <title>Edição de Perfil</title>
-    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
-    <link href="adm.css" type="text/css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-  </head>
+	<head>
+		<title>Perfil</title>
+		<link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+		<link href="adm.css" type="text/css" rel="stylesheet"/>
+		<script src="https://use.fontawesome.com/342bd9e694.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
 
-  <body>
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                    <a class="navbar-brand" href="painelc.html">XÔ COVID</a>
-                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="painelc.html">Painel de Controle <span class="sr-only">(Página atual)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="listprod.html">Produtos</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="listaped.html">Pedidos</a>
-                        </li>
-                        <li class="nav-item active">
-                            <a class="nav-link" href="listacli.html">Clientes</a>
-                        </li>
-                    </ul>
-                    <li class="form-inline my-2 my-lg-0">
-                        <button class="btn btn-success" type="submit" href="#" >Sair</button>
-                    </li>
-                </div>
-            </nav>
-        </header>
-  </body>
+	<body>
+		<div class="header">
+			<ul>
+			  <li><img href="index.html" src="../Main/poo.png" class="logo"/></li>
+			  <li><a href="../Main/index.html">Home</a></li>
+			  <li><a href="../frente adm/painelc.html">Painel de Controle</a></li>
+			</ul>
+		  </div>
 
-  <br>
+			<main>
+				<div class="container-fluid">
+					<div class="card border-primary formulario">
+						<br><div class="titulo">Edição de Perfil</div><hr>
+			
+						<form > 
+								<div>
+									<label class="titulo"></label>
+								</div>   
+								<div class="form-group row">
+									<div class="col-sm">
+											<input class="form-control" type="text" placeholder="Nome" value="Cesar Silveira Souza">
+									</div>
+								</div>
+			
+								<div class="form-group row">
+									<div class="col-sm">
+											<input type="email" class="form-control" id="inputEmail3" placeholder="E-mail" value="css@gmail.com">
+									</div>
+			
+									<div class="col-sm">
+											<input type="text" class="form-control" id="inputCpf3" placeholder="CPF" value="100.200.300-44">
+									</div>
+									
+								</div>
+			
+								<div class="form-group row">
+									<div class="col-sm">
+											<input type="text" class="form-control" placeholder="Cidade" value="Formiga">
+									</div>
+			
+									<div class="col-sm">
+											<input type="text" class="form-control" placeholder="Estado" value="Minas Gerais">
+									</div>
+			
+									<div class="col-sm">
+										<input type="number" class="form-control" placeholder="CEP" value="35570000">
+									</div>
+									
+								</div>
+			
+								<div class="form-group row">
+									<div class="col-sm-7">
+											<input type="text" class="form-control" placeholder="Logadouro" value="São Luiz Gonzaga, bairro São Luiz">
+									</div>
+									
+									<div class="col-sm">
+											<input type="number" class="form-control" placeholder="Número" value="257">
+									</div>
+			
+								</div>
+			
+								<div>
+									<a href="perfil.html" class="btn btn-success">Salvar</a>
+								</div>
+						</form>
+					</div>
+				</div>
+			</main>
+		
+			<footer id="footer">
+				<div id="footer">
+					<!-- Footer main -->
+					<section class="ft-main">
+						<div class="ft-main-item">
+							<h2 class="ft-title">Sobre</h2>
+							<br>
+							<br>
+							<ul>
+							<li><a href="#">Serviços</a></li>
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Preços</a></li>
+							<li><a href="#">Clientes</a></li>
+							</ul>
+						</div>
+						<div class="ft-main-item">
+							<h2 class="ft-title">Recursos</h2>
+							<br>
+							<br>
+							<ul>
+							<li><a href="#">Documentos</a></li>
+							<li><a href="https://chc-site.web.app/#topo">Sobre a CHC</a></li>
+							<li><a href="../perfil1.0/perfil.html">Administrador</a></li>
+							</ul>
+						</div>
+						<div class="ft-main-item">
+							<h2 class="ft-title">Contatos</h2>
+							<br>
+							<br>
+							<ul>
+							<li><a href="#">Ajuda</a></li>
+							<li><a href="#">Vendas</a></li>
+							</ul>
+						</div>
+						<div class="ft-main-item">
+							<h2 class="ft-title">Fique Atualizado</h2>
+							<br>
+							<br>
+							<p>Se inscreva em nossa Newsletter para receber as últimas informações.</p>
+							<form>
+							<input type="email" name="email" placeholder="Digite o endereço de email">
+							<input type="submit" value="Inscrever-se">
+							</form>
+						</div>
+				</section>
+			
+				<!-- Footer social -->
+				<section class="ft-social">
+					<ul class="ft-social-list">
+						<li>
+							<a href="https://facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+						</li>
+			
+						<li><a href="https://twitter.com" target="blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a></li>
+						<li><a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin"></i></a></li>
+						<li><a href="https://youtube.com" target="blank"><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</section>
+			
+				<!-- Footer legal -->
+				<section class="ft-legal">
+					<ul class="ft-legal-list">
+						<li><a href="#">Termos &amp; Condições</a></li>
+						<li><a href="#">Políticas de privacidade</a></li>
+						<li>&copy; 2020 Copyright Computer Science Web Fucking Devs Inc.</li>
+					</ul>
+				</section>
+			</div>
 
-  <div class="container-fluid">
-      <div class="card border-primary formulario">
-          <br><div class="titulo">Edição de Perfil</div><hr>
+			</footer>
+			
+			<div id="meuModal3" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+			
+				<!-- Conteúdo do modal-->
+				<div class="modal-content">
+		
+					<!-- Cabeçalho do modal -->
+					<div class="modal-header">
+							<h4 class="modal-title"> Meu Carrinho:</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+		
+					<!-- Corpo do modal -->
+					<div class="modal-body">
+							<form id="form2" method="post">
+							<div class="form-group">
+								
+		
+								
+							</div>
+							</form>
+					</div>
+		
+				<!-- Rodapé jovem-->
+				<div class="modal-footer">
+			<div class="input-group mb-3">
+			<input type="text" class="form-control" placeholder="CEP Aqui" aria-label="Recipient's username" aria-describedby="basic-addon2">
+		
+			<button class="btn btn-outline-secondary" type="button">Calcular Frete</button>
+			</div>  
+				<br>
+				<button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button>
+				</div>
+		
+			</div>
+			</div>
+			</div>
+		
+			<div id="meuModal" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+		
+				<!-- Conteúdo do modal-->
+				<div class="modal-content">
+		
+					<!-- Cabeçalho do modal -->
+					<div class="modal-header">
+							<h4 class="modal-title">Login:</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+		
+					<!-- Corpo do modal -->
+					<div class="modal-body">
+							<span id="msg-error"></span>
+							<form id="form1" method="post">
+							<div class="form-group">
+								<label for="exampleInputEmail1">Email:</label>
+								<input type="email" class="form-control"  name="exampleInputEmail1" id="exampleInputEmail1" placeholder="Insira seu email aqui">
+								<div class="form-group">
+									<label for="exampleInputPassword1">Senha:</label>
+									<input type="password" name="exampleInputPassword1" class="form-control" id="exampleInputPassword1"  placeholder="Insira sua senha aqui">
+								</div>
+		
+								<div class="form-check">
+									<a href="esqueceuSenha.html">Esqueceu a senha ?</a>          
+								</div>
+							</div>
+							
+							<!-- Rodapé jovem-->
+							<div class="modal-footer">
+								<button type="submit" class="btn btn-primary btn-lg">Logar</button>
+							</div>
+							</form>
+					</div>
+				</div>
+				</div>
+			</div>
+		
+			<div id="meuModal2" class="modal fade" role="dialog">
+				<div class="modal-dialog">
+				<!-- Conteúdo do modal-->
+				<div class="modal-content">
+					<!-- Cabeçalho do modal -->
+					<div class="modal-header">
+							<h4 class="modal-title">Cadastro:</h4>
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+					</div>
+		
+					<!-- Corpo do modal -->
+					<div class="modal-body">
+							<form id="form2" method="post">
+							
+							<div class="form-group">
+								<label for="nome">Nome Completo:</label>
+								<input type="email" class="form-control" id="nome" placeholder="Insira seu nome aqui">
+									<div class="form-group">
+									<label for="exampleInputPassword1">Senha:</label>
+									<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha Aqui">
+							</div>
+		
+							<label for="exampleInputEmail1">Email:</label>
+							<input type="email" class="form-control" id="inputEmail4" placeholder="Insira seu email aqui">
+		
+							<div class="form-group">
+								<label for="cpf">CPF:</label>
+								<input type="name" class="form-control" id="cpf" placeholder="Insira seu CPF aqui">
+							</div>
+		
+							<div class="form-group">
+								<label for="exampleInputPassword1">Data de Nascimento:</label>
+								<input type="date" class="form-control" id="exampleInputPassword1" placeholder="insira sua data de nascimento aqui">
+							</div>
+		
+							</form>
+					</div>
+		
+					<!-- Rodapé jovem-->
+					<div class="modal-footer">
+							<button type="button" class="btn btn-primary btn-lg">Cadastrar</button>
+					</div>
+		
+				</div>
+				</div>
+			</div>
+			
+		</body>
 
-          <form > 
-                <div>
-                    <label class="titulo"></label>
-                </div>   
-                <div class="form-group row">
-                    <div class="col-sm">
-                        <input class="form-control" type="text" placeholder="Nome" value="Cesar Silveira Souza">
-                    </div>
-                </div>
-
-                <div class="form-group row">
-                    <div class="col-sm">
-                        <input type="email" class="form-control" id="inputEmail3" placeholder="E-mail" value="css@gmail.com">
-                    </div>
-
-                    <div class="col-sm">
-                        <input type="text" class="form-control" id="inputCpf3" placeholder="CPF" value="100.200.300-44">
-                    </div>
-                    
-                </div>
-
-                <div class="form-group row">
-                    <div class="col-sm">
-                        <input type="text" class="form-control" placeholder="Cidade" value="Formiga">
-                    </div>
-
-                    <div class="col-sm">
-                        <input type="text" class="form-control" placeholder="Estado" value="Minas Gerais">
-                    </div>
-
-                    <div class="col-sm">
-                      <input type="number" class="form-control" placeholder="CEP" value="35570000">
-                    </div>
-                    
-                </div>
-
-                <div class="form-group row">
-                    <div class="col-sm-7">
-                        <input type="text" class="form-control" placeholder="Logadouro" value="São Luiz Gonzaga, bairro São Luiz">
-                    </div>
-                    
-                    <div class="col-sm">
-                        <input type="number" class="form-control" placeholder="Número" value="257">
-                    </div>
-
-                </div>
-
-                <div>
-                    <a href="perfil.html" class="btn btn-success">Salvar</a>
-                </div>
-          </form>
-      </div>
-  </div>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<script src="bootstrap.bundle.min.js"></script>
 </html>

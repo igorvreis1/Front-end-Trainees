@@ -1,0 +1,487 @@
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../style.css">
+		<link rel="stylesheet" type="text/css" href="../styleprods2.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+		<script src="https://use.fontawesome.com/342bd9e694.js"></script>
+		<script src="../produtos.js"></script>         
+		<title>Produto</title>
+		
+		<script type="text/javascript">
+
+			function masc1(){
+				document.getElementById("Textoh2") .innerHTML= "<img src='.././ImagensProdutos/masc1.jpg' width='400dp' /> <br/>"
+			}
+			function masc2(){
+				document.getElementById("Textoh2") .innerHTML= "<img src='.././ImagensProdutos/masc2.jpg' width='400dp' /> <br/>"
+			}
+			function masc3(){
+				document.getElementById("Textoh2") .innerHTML= "<img src='.././ImagensProdutos/masc3.jpg' width='400dp' /> <br/>"
+			}
+			function masc4(){
+				document.getElementById("Textoh2") .innerHTML= "<img src='.././ImagensProdutos/masc4.png' width='400dp' /> <br/>"
+				
+			}
+			
+			function preencher(){
+				document.getElementById("nomeprod") .innerHTML=produto4.nome;
+				document.getElementById("precoprod") .innerHTML=produto4.preco;
+
+				document.getElementById("nomeprod5") .innerHTML=produto5.nome;
+				document.getElementById("precoprod5") .innerHTML=produto5.preco;
+				
+				document.getElementById("nomeprod9") .innerHTML=produto9.nome;
+				document.getElementById("precoprod9") .innerHTML=produto9.preco;
+				
+				document.getElementById("nomeprod13") .innerHTML=produto13.nome;
+				document.getElementById("precoprod13") .innerHTML=produto13.preco;
+				
+				document.getElementById("desc") .innerHTML=descmasc;
+			}	
+		</script>
+	</head>
+
+	<body>
+
+		<div class="header">
+			<ul>
+			  <li><img href="../index.html" src="../poo.png" class="logo"/></li>
+			  <li><a href="../index.html">Home</a></li>
+			  <li><a href="../produtos.html">Produtos</a></li>
+			  <li><a href="#footer">Contato</a></li>
+			  <li><a href="../sobre.html">Sobre</a></li>
+			  <button class="btn btn-success" data-toggle="modal" data-target="#meuModal2">Cadastro</button>
+			  <button class="btn btn-success" data-toggle="modal" data-target="#meuModal">Login</button>
+			  <a href="#" class="imagecar"  data-toggle="modal" data-target="#meuModal3"><img src="marketcar.png"></a>
+			</ul>
+		</div>
+		
+		<main>
+
+			<section class="prod-main2">
+				
+				<div>
+					<section class="prod-main"> <!-- Imagens -->
+						
+						<div id="div"> <!-- Miniaturas e maximizadas-->
+							<section class="prod-main">
+								<table id="tableIMG" style="height:500">
+									<tr>
+										<td>
+											<img id="img1" src=".././ImagensProdutos/masc1.jpg" width="60dp" onmouseover="masc1()" /> <br/>
+										</td>
+									</tr>
+									
+									<tr>
+										<td >
+											<img id="img2" src=".././ImagensProdutos/masc2.jpg" width="60dp" onmouseover="masc2()"/> <br/>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											<img id="img3" src=".././ImagensProdutos/masc3.jpg" width="60dp" onmouseover="masc3()" /> <br/>
+										</td>
+									</tr>
+									
+									<tr>
+										<td>
+											<img id="img4" src=".././ImagensProdutos/masc4.png" width="60dp" onmouseover="masc4()" /> <br/>
+										</td>
+									</tr>
+								</table>
+								
+								<table style="width:auto; height:500">
+									<tr>
+										<td>
+											<fieldset >
+												<p id="Textoh2" >
+													<img src=".././ImagensProdutos/masc1.jpg" width="400dp" onmouseover="masc1()" /> <br/>
+												</p>
+											</fieldset>
+										</td>
+									</tr>
+								</table>
+							</section>
+						</div>
+						
+						<div > <!-- titulo e preço -->
+							<table style="width:400; height:500">
+							
+								<tr>
+									<td >
+										<!-- Nome do produto -->
+										<h1 class="titulo" id="nomeprod">
+										</h1>
+									</td>
+								</tr>
+								
+								<tr>
+									<td class="preco">
+										<!-- preco do produto -->
+										<p id="precoprod">
+										</p>
+									</td>
+								</tr>
+								
+								
+								<tr >
+									<td style="padding-left: 30px;">
+										<p id="select">Quantidade
+											<select name=quantidade size=1>
+												<option>01 </option>
+												<option>02 </option>
+												<option>03 </option>
+												<option>04 </option>
+												<option>05 </option>
+												<option>+5</option>
+											</select>
+										</p>
+										<a href="#" class="button">Comprar</a></br>
+										<a href="#" class="button">Adicionar Ao Carrinho</a>
+									</td>
+									
+								</tr>
+								
+								<tr >
+									<td>
+										<p class="mensage">
+											Compra Garantida, receba o produto que está esperando ou devolvemos o dinheiro
+										</p>
+									</td>
+									
+								</tr>
+
+
+				
+							</table>
+						</div>
+						
+					</section>
+					
+					<div id="div2">
+						<table id="tabdesc">
+							<tr>
+								<td >
+									<br><br>
+									<h3>Descrição</h3>
+									<p id="desc">
+									</p>
+								</td>
+							</tr>
+						</table>
+
+					</div>
+					
+				
+				</div>
+				
+				
+				<div><!-- Outros produtos -->
+					<table style="margin: 0 0 30px 45px;">
+						<tr>
+							<td >
+								<h2 class="c-tem-demencia"> Veja outros Produtos </h2>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto5.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/luva1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod5">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod5">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto9.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/gel1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod9">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod9">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+						
+						<tr>
+							<td>
+								<div  id="div1" >
+									<a href="produto13.html"target="_self">
+										<table>
+											<tr>
+												<td class="tableimg">
+													<img src=".././ImagensProdutos/alcool1.jpg" width=220dp aling=middle /> <br/>
+												</td>
+											</tr>
+											<tr>
+												<td class="preco2"> 
+													<p id="precoprod13">
+													</p>
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<p style="width: 250px;" class="titulo2" id="nomeprod13">
+													</p>
+												</td>
+											</tr>
+										</table>
+									</a>
+								</div>
+							</td>
+						</tr>
+					
+					</table>
+				</div>
+				
+				<script>preencher()</script>
+			</section>
+			
+		</main>
+
+		<footer id="footer">
+			<!-- Footer main -->
+			<section class="ft-main">
+			  <div class="ft-main-item">
+				<h2 class="ft-title">Sobre</h2>
+				<br>
+				<br>
+				<ul>
+				  <li><a href="#">Serviços</a></li>
+				  <li><a href="#">Portfolio</a></li>
+				  <li><a href="#">Preços</a></li>
+				  <li><a href="#">Clientes</a></li>
+				</ul>
+			  </div>
+			  <div class="ft-main-item">
+				<h2 class="ft-title">Recursos</h2>
+				<br>
+				<br>
+				<ul>
+				  <li><a href="#">Documentos</a></li>
+				  <li><a href="https://chc-site.web.app/#topo">Sobre a CHC</a></li>
+				  <li><a href="file:///C:/Users/joaop/OneDrive/%C3%81rea%20de%20Trabalho/Perfil%20ADM%20Linkado%2018h00%2026-05/perfil1.0/perfil.html">Administrador</a></li>
+				</ul>
+			  </div>
+			  <div class="ft-main-item">
+				<h2 class="ft-title">Contatos</h2>
+				<br>
+				<br>
+				<ul>
+				  <li><a href="#">Ajuda</a></li>
+				  <li><a href="#">Vendas</a></li>
+				</ul>
+			  </div>
+			  <div class="ft-main-item">
+				<h2 class="ft-title">Fique Atualizado</h2>
+				<br>
+				<br>
+				<p>Se inscreva em nossa Newsletter para receber as últimas informações.</p>
+				<form>
+				  <input type="email" name="email" placeholder="Digite o endereço de email">
+				  <input type="submit" value="Inscrever-se">
+				</form>
+			  </div>
+			</section>
+			
+			<!-- Footer social -->
+			<section class="ft-social">
+			  <ul class="ft-social-list">
+				<li>
+					<a href="https://facebook.com" target="blank"><i class="fa fa-facebook"></i></a>
+				</li>
+	  
+				<li><a href="https://twitter.com" target="blank"><i class="fa fa-twitter"></i></a></li>
+				<li><a href="https://instagram.com" target="blank"><i class="fa fa-instagram"></i></a></li>
+				<li><a href="https://linkedin.com" target="blank"><i class="fa fa-linkedin"></i></a></li>
+				<li><a href="https://youtube.com" target="blank"><i class="fa fa-youtube"></i></a></li>
+			  </ul>
+			</section>
+			
+			<!-- Footer legal -->
+			<section class="ft-legal">
+			  <ul class="ft-legal-list">
+				<li><a href="#">Termos &amp; Condições</a></li>
+				<li><a href="#">Políticas de privacidade</a></li>
+				<li>&copy; 2020 Copyright Computer Science Web Fucking Devs Inc.</li>
+			  </ul>
+			</section>
+		</footer>
+
+		<div id="meuModal3" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+		  
+			  <!-- Conteúdo do modal-->
+			  <div class="modal-content">
+	  
+				<!-- Cabeçalho do modal -->
+				<div class="modal-header">
+				  <h4 class="modal-title"> Meu Carrinho:</h4>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+	  
+				<!-- Corpo do modal -->
+				<div class="modal-body">
+				  <form id="form2" method="post">
+					<div class="form-group">
+					 
+	  
+					  
+					</div>
+				  </form>
+				</div>
+	  
+			<!-- Rodapé jovem-->
+			<div class="modal-footer">
+	  <div class="input-group mb-3">
+		<input type="text" class="form-control" placeholder="CEP Aqui" aria-label="Recipient's username" aria-describedby="basic-addon2">
+	  
+		  <button class="btn btn-outline-secondary" type="button">Calcular Frete</button>
+	  </div>  
+			 <br>
+			  <button type="button" class="btn btn-primary btn-lg">Finalizar Pedido</button>
+			</div>
+	  
+		  </div>
+		  </div>
+		</div>
+
+		<div id="meuModal" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+	  
+			  <!-- Conteúdo do modal-->
+			  <div class="modal-content">
+	  
+				<!-- Cabeçalho do modal -->
+				<div class="modal-header">
+				  <h4 class="modal-title">Login:</h4>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+	  
+				<!-- Corpo do modal -->
+				<div class="modal-body">
+				  <span id="msg-error"></span>
+				  <form id="form1" method="post">
+					<div class="form-group">
+					  <label for="exampleInputEmail1">Email:</label>
+					  <input type="email" class="form-control"  name="exampleInputEmail1" id="exampleInputEmail1" placeholder="Insira seu email aqui">
+					  <div class="form-group">
+						<label for="exampleInputPassword1">Senha:</label>
+						<input type="password" name="exampleInputPassword1" class="form-control" id="exampleInputPassword1"  placeholder="Insira sua senha aqui">
+					  </div>
+	  
+					  <div class="form-check">
+						<a href="esqueceuSenha.html">Esqueceu a senha ?</a>          
+					  </div>
+					</div>
+					
+					<!-- Rodapé jovem-->
+					<div class="modal-footer">
+					  <button type="submit" class="btn btn-primary btn-lg">Logar</button>
+					</div>
+				  </form>
+				</div>
+			  </div>
+			</div>
+		</div>
+	  
+		<div id="meuModal2" class="modal fade" role="dialog">
+			<div class="modal-dialog">
+			<!-- Conteúdo do modal-->
+			  <div class="modal-content">
+				<!-- Cabeçalho do modal -->
+				<div class="modal-header">
+				  <h4 class="modal-title">Cadastro:</h4>
+				  <button type="button" class="close" data-dismiss="modal">&times;</button>
+				</div>
+	  
+				<!-- Corpo do modal -->
+				<div class="modal-body">
+				  <form id="form2" method="post">
+					
+					<div class="form-group">
+					  <label for="nome">Nome Completo:</label>
+					  <input type="email" class="form-control" id="nome" placeholder="Insira seu nome aqui">
+						<div class="form-group">
+						  <label for="exampleInputPassword1">Senha:</label>
+						  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Insira sua senha Aqui">
+					</div>
+	  
+					<label for="exampleInputEmail1">Email:</label>
+					<input type="email" class="form-control" id="inputEmail4" placeholder="Insira seu email aqui">
+	  
+					<div class="form-group">
+					  <label for="cpf">CPF:</label>
+					  <input type="name" class="form-control" id="cpf" placeholder="Insira seu CPF aqui">
+					</div>
+	  
+					<div class="form-group">
+					  <label for="exampleInputPassword1">Data de Nascimento:</label>
+					  <input type="date" class="form-control" id="exampleInputPassword1" placeholder="insira sua data de nascimento aqui">
+					</div>
+	  
+				  </form>
+				</div>
+	  
+				<!-- Rodapé jovem-->
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-primary btn-lg">Cadastrar</button>
+				</div>
+	  
+			  </div>
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+		<script src="bootstrap.bundle.min.js"></script>
+
+	</body>
+</html>
