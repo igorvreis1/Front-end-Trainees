@@ -1,23 +1,22 @@
-var produto1={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - 1 Unidade", "preco":"R$ 2,99"};
-var produto2={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 5 Unidades", "preco":"R$ 14,49"};
-var produto3={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 10 Unidades", "preco":"R$ 28,99"};
-var produto4={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 50 Unidades", "preco":"R$ 139,99"};
+var produto1={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - 1 Unidade", "preco":"R$ 4,50"};
+var produto2={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 5 Unidades", "preco":"R$ 22,49"};
+var produto3={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 10 Unidades", "preco":"R$ 44,99"};
+var produto4={"tipo":"mascara", "nome": "Máscara de Pano Reutilizável Dupla Camada - kit 50 Unidades", "preco":"R$ 224,99"};
 
-var produto5={"tipo":"luva", "nome": "Luva De Látex Com Pó P/ Procedimento - Uso Médico - 1 Pacote com 100 unidades", "preco":"R$ 42,90"};
-var produto6={"tipo":"luva", "nome": "Luva De Látex Com Pó P/ Procedimento - Uso Médico - 2 Pacote com 100 unidades", "preco":"R$ 85,00"};
-var produto7={"tipo":"luva", "nome": "Luva De Látex Com Pó P/ Procedimento - Uso Médico - 3 Pacote com 100 unidades", "preco":"R$ 128,00"};
-var produto8={"tipo":"luva", "nome": "Luva De Látex Com Pó P/ Procedimento - Uso Médico - 4 Pacote com 100 unidades", "preco":"R$ 170,00"};
+var produto5={"tipo":"luva", "nome": "Luva de Látex Descartável - 1 Par", "preco":"R$ 0,99"};
+var produto6={"tipo":"luva", "nome": "Luva de Látex Descartável - 5 Pares", "preco":"R$ 4,49"};
+var produto7={"tipo":"luva", "nome": "Luva de Látex Descartável - 10 Pares", "preco":"R$ 8,99"};
+var produto8={"tipo":"luva", "nome": "Luva de Látex Descarpack - 50 Pares", "preco":"R$ 39,99"};
 
-var produto9={"tipo":"alcoolgel", "nome": "ÁLCOOL GEL ASSEPTGEL 52G DISPLAY COM 1UND", "preco":"R$ 5,85"};
-var produto10={"tipo":"alcoolgel", "nome": "ÁLCOOL GEL ASSEPTGEL 52G DISPLAY COM 12UND", "preco":"R$ 69,90"};
-var produto11={"tipo":"alcoolgel", "nome": "ÁLCOOL GEL ASSEPTGEL 52G DISPLAY COM 24UND", "preco":"R$ 139,50"};
-var produto12={"tipo":"alcoolgel", "nome": "ÁLCOOL GEL ASSEPTGEL 52G DISPLAY COM 48UND", "preco":"R$ 279,60"};
+var produto9={"tipo":"alcoolgel", "nome": "Álcool em Gel AsseptGel 1L - 1 Unidade", "preco":"R$ 5,49"};
+var produto10={"tipo":"alcoolgel", "nome": "Álcool em Gel PureClean Gel 1L - 5 Unidades", "preco":"R$ 58,99"};
+var produto11={"tipo":"alcoolgel", "nome": "Álcool em Gel Coperalcool 1L - 10 Unidades", "preco":"R$ 199,00"};
+var produto12={"tipo":"alcoolgel", "nome": "Álcool em Gel Urca 1L - 100 Unidades", "preco":"R$ 1190,00"};
 
-var produto13={"tipo":"alcool", "nome": "Álcool 70% Etílico Líquido Tupi 1lt ","preco":"R$ 8,99"};
-var produto14={"tipo":"alcool", "nome": "Álcool 70% Etílico Líquido Tupi 1lt Cx C/ 12 Und", "preco":"R$ 107,88"};
-var produto15={"tipo":"alcool", "nome": "Álcool 70% Etílico Líquido Tupi 1lt Cx C/ 24 Und", "preco":"R$ 215,76"};
-var produto16={"tipo":"alcool", "nome": "Kit 3 Unidades de Álcool Líquido 70% Farmax 70º - 500ml", "preco":"R$ 23,72"};
-
+var produto13={"tipo":"alcool", "nome": "Álcool Start 70% 1L - 1 Unidade", "preco":"R$ 8,99"};
+var produto14={"tipo":"alcool", "nome": "Álcool Tupi 70% 1L - 5 Unidades", "preco":"R$ 43,99"};
+var produto15={"tipo":"alcool", "nome": "Álcool Septmax 70% 1L - 10 Unidades", "preco":"R$ 87,99"};
+var produto16={"tipo":"alcool", "nome": "Álcool Septmax 70% 1L - 100 Unidades", "preco":"R$ 890,00"};
 
 var descmasc="Máscara fabricada de acordo com as recomendações da OMS, feita em dupla camada de tecido, garantindo proteção, qualidade e conforto da respiração. Ideal para isolar vírus, poeira, germes, fumaça, poluição, etc. Possui corte ergonômico para se ajustar perfeitamente ao rosto, se adapta em qualquer formato de rosto. Produto lavável. Tecido: Tricoline e Elastano. Tipo de fixação: Elásticos que prendem atrás das orelhas (super confortável)<br> Recomendações de lavagem:<br> 1 - Lavar com água fria ou morna<br> 2 - Lavar com sabão neutro<br>"
 var descluva="Luvas descartáveis, sua qualidade praticamente elimina o risco de rompimento, minimiza o risco de contaminação por vírus e bactérias. São impermeáveis e econômicas. Possuem um toque de seda confortável	que proporciona alta sensibilidade ao tato."
